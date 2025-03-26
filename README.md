@@ -13,7 +13,7 @@ This application enhances foundational React concepts such as:
 
 ## Live Demo
 
-[View Live App on GitHub Pages](https://your-username.github.io/Weather-React-Project)
+[View Live App on GitHub Pages](https://NengiIkoli.github.io/Weather-React-Project)
 
 ## Features
 
@@ -46,7 +46,7 @@ This application enhances foundational React concepts such as:
 - GitHub Pages for deployment
 
 
-Demo/Expected Output:
+## Demo/Expected Output:
 
 (Note: Does not have to look exactly like this but still needs to look professional)
 
