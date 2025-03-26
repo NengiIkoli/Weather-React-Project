@@ -45,10 +45,3 @@ This application enhances foundational React concepts such as:
 - GitHub Pages for deployment
 
 
-## Demo/Expected Output:
-
-(Note: Does not have to look exactly like this but still needs to look professional)
-
-![alt text](image.png)
-![alt text](image-1.png)
->>>>>>> 3b3eaf4 (Update README with screenshots and description)
