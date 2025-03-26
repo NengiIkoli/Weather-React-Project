@@ -21,7 +21,6 @@ This application enhances foundational React concepts such as:
 - Search by city, ZIP code, address, or landmark
 - Auto-detect user location (optional)
 - Smooth animations and modern UI
-- 3-day forecast (coming soon)
 - Secure use of API keys through .env files
 
 ## Requirements
