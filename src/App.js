@@ -7,7 +7,7 @@ function App() {
   const [unit, setUnit] = useState('metric');
   const [error, setError] = useState('');
 
-  const API_KEY = '0c407ebfdd4cf2504394a8125a4691e6'; // 
+  const API_KEY = process.env.REACT_APP_WEATHER_API_KEY; 
 
   const isZip = /^\d+$/.test(input);
 
