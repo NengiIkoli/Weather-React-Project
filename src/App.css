@@ -1,0 +1,144 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #012027, #203a43, #2c5364); /* original gradient */
+  height: 100vh;
+  color: #f2f2f2;
+  transition: background 0.3s ease;
+}
+
+.input-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  border-radius: 4px;
+  border: none;
+  width: 300px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #ff8800;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  color: #fff;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #ff8800;
+}
+
+.unit-toggle {
+  margin-bottom: 20px;
+  padding: 6px 16px;
+  border-radius: 4px;
+  background-color: #f87909;
+  color: white;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.unit-toggle:hover {
+  transform: scale(1.05);
+}
+
+.error {
+  color: #ff4d4d;
+  font-weight: bold;
+}
+
+/* Weather card layout */
+.weather-card {
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 20px;
+  padding: 30px;
+  width: 320px;
+  margin: 20px auto;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+  animation: fadeIn 0.6s ease-in-out;
+}
+
+/* Animation for fade */
+@keyframes fadeIn {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Weather icon with bounce */
+.weather-icon {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 10px;
+  animation: bounce 1.8s infinite ease-in-out;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+
+/* Temperature styling */
+.temp {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 10px 0 5px 0;
+}
+
+/* Weather description */
+.description {
+  text-transform: capitalize;
+  margin-bottom: 10px;
+  font-size: 16px;
+  opacity: 0.9;
+}
+
+/* Details list */
+.details {
+  margin-top: 20px;
+  padding-top: 10px;
+  border-top: 1px solid #eee;
+  text-align: left;
+  font-size: 15px;
+  line-height: 1.6;
+  color: #e0e0e0;
+}
+
+/* Responsive for mobile */
+@media (max-width: 480px) {
+  .app {
+    padding: 20px;
+  }
+
+  input {
+    width: 200px;
+  }
+
+  .weather-card {
+    width: 90%;
+  }
+}
+
