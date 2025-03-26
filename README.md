@@ -50,5 +50,6 @@ This application enhances foundational React concepts such as:
 
 (Note: Does not have to look exactly like this but still needs to look professional)
 
-https://d36ai2hkxl16us.cloudfront.net/course-uploads/2f06419c-ded8-4d4d-ba4c-63ffa1383269/sz1zqk4hs81n-image.png
-https://d36ai2hkxl16us.cloudfront.net/course-uploads/2f06419c-ded8-4d4d-ba4c-63ffa1383269/1k5ih2vbo3nb-image.pnghttps://d36ai2hkxl16us.cloudfront.net/course-uploads/2f06419c-ded8-4d4d-ba4c-63ffa1383269/zs6ijy4yyc0k-image.png
+![alt text](image.png)
+![alt text](image-1.png)
+>>>>>>> 3b3eaf4 (Update README with screenshots and description)
